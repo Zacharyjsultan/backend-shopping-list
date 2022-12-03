@@ -22,6 +22,7 @@ const registerAndLogin = async (userProps = {}) => {
   const password = userProps.password ?? mockUser.password;
 
   // Create an "agent" that gives us the ability
+  // whats wrong here I have signed in?
   // to store cookies between requests in a test
   const agent = request.agent(app);
 
